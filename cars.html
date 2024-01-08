@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: peachpuff;
+  padding: 20px;
+  font-family: Arial;
+}
+
+
+.main {
+  max-width: 1000px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 50px;
+  word-break: break-all;
+}
+
+.row {
+  margin: 8px -16px;
+}
+
+
+.row,
+.row > .column {
+  padding: 8px;
+}
+
+
+.column {
+  float: left;
+  width: 40%;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+.content {
+  background-color: white;
+  padding: 10px;
+}
+
+
+@media screen and (max-width: 900px) {
+  .column {
+    width: 50%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+
+<div class="main">
+
+<h1>CARS</h1>
+<hr>
+
+ <a href="index.html"><img src="pictures\home.png"></a>&nbsp; &nbsp;&nbsp;&nbsp;
+
+
+<h2>@yna</h2>
+
+
+
+<div class="row">
+  <div class="column">
+    <div class="content">
+ <img src="pictures\image1.jpg" style="width:100%">
+      <h3>CONVERTIBLE</h3>
+      <p>A convertible or cabriolet is a passenger car that can be driven with or without a roof in place. The methods of retracting and storing the roof vary among eras and manufacturers.</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="content">
+    <img src="pictures\image2.avif" style="width:100%">
+      <h3>SEDAN</h3>
+      <p>A sedan or saloon  is a passenger car in a three-box configuration with separate compartments for an engine, passengers, and cargo. The first recorded use of sedan in reference to an automobile body occurred in 1912. The name derives from the 17th-century litter known as a sedan chair, a one-person enclosed box with windows and carried by porters. </p>
+    </div>
+  </div>
+  <div class="column">
+    <div class="content">
+    <img src="pictures\image3.jpg" style="width:100%">
+      <h3>COUPE</h3>
+      <p>A coupe is a fixed-roof car with a sloping rear roofline and one or two rows of seats. However, there is some debate surrounding whether a coupe must have two doors for passenger egress or whether cars with four doors can also be considered coupes</p>
+    </div>
+  </div>
+ 
+  <div class="column">
+    <div class="content">
+    <img src="pictures\image4.jpg" style="width:100%">
+      <h3>SUV</h3>
+      <p>A sport utility vehicle (SUV) is a car classification that combines elements of road-going passenger cars with features from off-road vehicles, such as raised ground clearance and four-wheel drive.</p>
+    </div>
+  </div>
+
+</div>
+
+<div class="content">
+  <img src="pictures\image5.webp" style="width:100%">
+  <h3>SPORTS CAR</h3>
+  <p>A sports car is a car designed with an emphasis on dynamic performance, such as handling, acceleration, top speed, the thrill of driving, and racing capability. Sports cars originated in Europe in early 1902 and are currently produced by many manufacturers around the world.</p>
+ 
+</div>
+</div>
+
+</body>
+</html>
